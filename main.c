@@ -141,7 +141,7 @@ void estados()
   printf("\n          - ESTADOS DO BRASIL -     \n");
   escrevalinha2();
   escrevalinha2();
-  char estados[27][10000] =
+  char estados[27][150] =
       {
           "Acre                           [AC]      |",
           "Alagoas                        [AL]      |",
@@ -782,7 +782,7 @@ void dados(){
 
 void apresentar_mapa(){
 
-char mapa[15][10000]=
+char mapa[15][500]=
 {
 
  "              .__.-+__._/V__                     ",
@@ -807,7 +807,7 @@ for(int y = 0; y<16; y++){
 }
 
 void nome_brazil(){
-char nome[8][100000]={
+char nome[8][300]={
 
 "88                                           88  88",
 "88                                           00  88",
